@@ -24,3 +24,8 @@ clustering = DBSCAN(eps=0.3, min_samples=10).fit(X)
 
 # 其中-1的資料就是離群值
 clustering.labels_
+
+#列出離群值的數組
+outlier_idxes=np.where(clustering.labels_==-1)
+X[outlier_idxes]
+
