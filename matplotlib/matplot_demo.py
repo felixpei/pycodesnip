@@ -2,6 +2,7 @@
 # %%
 
 # Deviation
+# 如果我們想查看單一指標的變化趨勢並視覺化差異的順序和數量。 有助於快速區分數據中的效能。
 import numpy as np
 import pandas as pd
 import matplotlib as mpl
@@ -64,6 +65,6 @@ plt.show()
 
 # %%
 
-# 更多範例請參考
+# 更多完整的範例請參考
 # Top 50 matplotlib Visualizations – The Master Plots (with full python code)
 # https://www.machinelearningplus.com/top-50-matplotlib-visualizations-the-master-plots-python/#3ranking
